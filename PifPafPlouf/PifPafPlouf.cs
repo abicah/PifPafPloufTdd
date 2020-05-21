@@ -6,6 +6,8 @@ namespace PifPafPloufProject
     {
         public string SuitElementFromNumber(int number)
         {
+            if (number % 3 == 0)
+                return "Pif";
             return number.ToString();
         }
     }
