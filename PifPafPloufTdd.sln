@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PifPafPlouf", "PifPafPlouf\PifPafPlouf.csproj", "{78975531-6F8A-48CA-8975-D320D9057DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiFafPloufTest", "PiPafPloufTests\PiFafPloufTest.csproj", "{A9312214-9FBC-4900-A14B-BD03C8608F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78975531-6F8A-48CA-8975-D320D9057DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78975531-6F8A-48CA-8975-D320D9057DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78975531-6F8A-48CA-8975-D320D9057DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78975531-6F8A-48CA-8975-D320D9057DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9312214-9FBC-4900-A14B-BD03C8608F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9312214-9FBC-4900-A14B-BD03C8608F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9312214-9FBC-4900-A14B-BD03C8608F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9312214-9FBC-4900-A14B-BD03C8608F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00DA5841-D6FF-4F04-82CE-5D85F2305832}
+	EndGlobalSection
+EndGlobal
