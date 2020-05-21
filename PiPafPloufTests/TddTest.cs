@@ -12,8 +12,12 @@ namespace PifafTest
         {
             Assert.AreEqual("1", PifPafPlouf.SuitElementFromNumber(1));
             Assert.AreEqual("2", PifPafPlouf.SuitElementFromNumber(2));
+        }
 
-
+        [TestMethod]
+        public void ShouldbePifIfNumberIs3orMultiple()
+        {
+            Assert.AreEqual("Pif", PifPafPlouf.SuitElementFromNumber(3));
         }
     }
 }
