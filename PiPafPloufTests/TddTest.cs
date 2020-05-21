@@ -55,5 +55,11 @@ namespace PifafTest
             Assert.AreEqual("Paf", PifPafPlouf.SuitBetween2Number(4, 4));
             Assert.AreEqual("Plouf", PifPafPlouf.SuitBetween2Number(12, 12));
         }
+
+        [TestMethod]
+        public void SuitShouldbe2StringsIfDiffNumberIs1()
+        {
+            Assert.AreEqual("12", PifPafPlouf.SuitBetween2Number(1, 2));
+        }
     }
 }
