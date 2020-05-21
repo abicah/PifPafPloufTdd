@@ -6,7 +6,7 @@ namespace PifPafPloufProject
     {
         public string SuitElementFromNumber(int number)
         {
-            return null;
+            return "1";
         }
     }
 }
