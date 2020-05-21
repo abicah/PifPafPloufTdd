@@ -16,6 +16,9 @@ namespace PifPafPloufProject
             return number.ToString();
         }
 
-
+        public string SuitBetween2Number(int minNumber, int maxNumber)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

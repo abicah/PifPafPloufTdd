@@ -46,5 +46,10 @@ namespace PifafTest
             Assert.AreEqual("Plouf", PifPafPlouf.SuitElementFromNumber(12 * 5));
         }
 
+        [TestMethod]
+        public void SuitShouldbe1ifnumbersis1and1()
+        {
+            Assert.AreEqual("1", PifPafPlouf.SuitBetween2Number(1, 1));
+        }
     }
 }
