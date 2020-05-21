@@ -18,7 +18,9 @@ namespace PifPafPloufProject
 
         public string SuitBetween2Number(int minNumber, int maxNumber)
         {
-            throw new NotImplementedException();
+            if (maxNumber > minNumber)
+                return SuitElementFromNumber(minNumber) + SuitElementFromNumber(maxNumber);
+            return SuitElementFromNumber(minNumber);
         }
     }
 }
