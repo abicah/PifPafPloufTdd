@@ -60,6 +60,11 @@ namespace PifafTest
         public void SuitShouldbe2StringsIfDiffNumberIs1()
         {
             Assert.AreEqual("12", PifPafPlouf.SuitBetween2Number(1, 2));
+            Assert.AreEqual("2Pif", PifPafPlouf.SuitBetween2Number(2, 3));
+            Assert.AreEqual("PifPaf", PifPafPlouf.SuitBetween2Number(3, 4));
+            Assert.AreEqual("Paf5", PifPafPlouf.SuitBetween2Number(4, 5));
+            Assert.AreEqual("11Plouf", PifPafPlouf.SuitBetween2Number(11, 12));
+            Assert.AreEqual("1314", PifPafPlouf.SuitBetween2Number(13, 14));
         }
     }
 }
