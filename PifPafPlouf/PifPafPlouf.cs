@@ -20,9 +20,7 @@ namespace PifPafPloufProject
         {
             string suit = "";
             for (int currentNumber = minNumber; currentNumber <= maxNumber; currentNumber++)
-            {
                 suit += SuitElementFromNumber(currentNumber);
-            }
             return suit;
         }
     }

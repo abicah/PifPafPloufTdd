@@ -71,6 +71,9 @@ namespace PifafTest
         public void SuitShouldbeMoreStringsIfDiffNumberIsSup1()
         {
             Assert.AreEqual("12Pif", PifPafPlouf.SuitBetween2Number(1, 3));
+            Assert.AreEqual("12PifPaf", PifPafPlouf.SuitBetween2Number(1, 4));
+            Assert.AreEqual("12PifPaf5", PifPafPlouf.SuitBetween2Number(1, 5));
+            Assert.AreEqual("12PifPaf5Pif", PifPafPlouf.SuitBetween2Number(1, 6));
 
         }
     }
