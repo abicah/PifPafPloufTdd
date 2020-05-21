@@ -47,9 +47,13 @@ namespace PifafTest
         }
 
         [TestMethod]
-        public void SuitShouldbe1ifnumbersis1and1()
+        public void SuitShouldbeOnly1StringIfOnly1Number()
         {
             Assert.AreEqual("1", PifPafPlouf.SuitBetween2Number(1, 1));
+            Assert.AreEqual("2", PifPafPlouf.SuitBetween2Number(2, 2));
+            Assert.AreEqual("Pif", PifPafPlouf.SuitBetween2Number(3, 3));
+            Assert.AreEqual("Paf", PifPafPlouf.SuitBetween2Number(4, 4));
+            Assert.AreEqual("Plouf", PifPafPlouf.SuitBetween2Number(12, 12));
         }
     }
 }
