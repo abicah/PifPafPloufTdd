@@ -18,9 +18,12 @@ namespace PifPafPloufProject
 
         public string SuitBetween2Number(int minNumber, int maxNumber)
         {
-            if (maxNumber > minNumber)
-                return SuitElementFromNumber(minNumber) + SuitElementFromNumber(maxNumber);
-            return SuitElementFromNumber(minNumber);
+            string suit = "";
+            for (int currentNumber = minNumber; currentNumber <= maxNumber; currentNumber++)
+            {
+                suit += SuitElementFromNumber(currentNumber);
+            }
+            return suit;
         }
     }
 }
